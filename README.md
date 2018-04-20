@@ -1,4 +1,5 @@
 # Grab_Images
+A GUI python code
 Grab images from website
 This code is used to grab images from some website.
 ImgID is bottom file where the images are saved and the file name of the images.
@@ -17,6 +18,6 @@ named in
 ...
 if you want to grab images in other website you can change the code in line 42
 
-42 reg = r'src="(.+?\.jpg)" width="?"'
+ reg = r'src="(.+?\.jpg)" width="?"'
 
 
