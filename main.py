@@ -85,7 +85,7 @@ button2.grid(row=3, column=1)
 
 
 def hitClearText():
-    m_result.delete(1.0, Tkinter.END)
+    text_result.delete(1.0, END)
 
 
 button3 = Button(window, text='ClearText', width=14, height=20, command=hitClearText)
